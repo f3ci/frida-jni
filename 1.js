@@ -2,9 +2,9 @@ main()
 
 function main(){
 	enumlib();
-	var pathlib = "/data/app/pathto/packagename/lib/arm64/libname.so";
-	var namelib = "yourlib.so";
-	var funclib = "yourfunc";
+	var pathlib = "/data/app/pathto/packagename/lib/arm64/libname.so"; //change with your target library path
+	var namelib = "yourlib.so"; //target library
+	var funclib = "yourfunc"; //library function
 	//hookretval(pathlib,namelib,funclib);
 }
 
