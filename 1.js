@@ -28,7 +28,7 @@ function enumlib(){
 	})
 }
 
-
+//this function is template, modify as you need
 function hookretval(pathlib,namelib,funclib){
 	Interceptor.attach(Module.findExportByName(null, "open"), {
 	onEnter: function(args){
